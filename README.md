@@ -1,1 +1,1 @@
-## link::blinkit-blush.vercel.app
+# [LINK](blinkit-blush.vercel.app)
