@@ -320,7 +320,7 @@ pro_cont2.innerHTML = '';
 
 product_cont2.forEach((data) => {
     let parent = document.createElement('div');
-    parent.classList.add('product-cart');
+    parent.classList.add('product-cart-1');
     // image add
     let img = document.createElement('img');
     img.src = data.src;
@@ -372,127 +372,127 @@ product_cont2.forEach((data) => {
 
 const product_cont3 = [
 
-         {
-             name:'Chupa Chups Sour Bites Mixed Fruit Candy',
-            ml: "61.6 g",
-            price : "₹34",
-            time:"⏱ 8 MINS",
-            src:'https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/da/cms-assets/cms/product/54251c20-809a-4e2f-bad0-8a53e48f3f31.jpg',
-            alt:'Condies & gum'
-        },
-         {
-             name:'Parle Poppins Candy',
-            ml: "200 g",
-            price : "₹24",
-            time:"⏱ 8 MINS",
-            src:'https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=360/da/cms-assets/cms/product/7420f5a7-bd7b-4c2b-929f-d6034bb254a0.png',
-            alt:'Condies & gum'
-        },
-         {
-             name:'Orbit Mixed Fruit Flavour Chewing Gum (Sugar.. Free)',
-            ml: "19.8 g",
-            price : "₹45",
-            time:"⏱ 8 MINS",
-            src:'https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=360/da/cms-assets/cms/product/06c51cd5-e8b4-43df-afa4-e5709bb5edbb.png',
-            alt:'Condies'
-        },
-         {
-             name:'Happydent Sugar Free Wave Fruit Flavour Chewing Gum',
-            ml: "29 mg",
-            price : "₹47",
-            time:"⏱ 8 MINS",
-            src:'https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=360/da/cms-assets/cms/product/ae644472-f6cc-47b6-bd58-c823defcccf1.png',
-            alt:'Condies'
-        },
-         {
-             name:'Alpenliebe Juzt Jelly - Strawberry Flavour Jelly Candy',
-            ml: "140 g",
-            price : "₹57",
-            time:"⏱ 8 MINS",
-            src:'https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=360/da/cms-assets/cms/product/84af17fc-39fd-44f8-ab89-69cc2bd6c2a6.png',
-            alt:'Condies'
-        },
-         {
-             name:'Alpenliebe Grande with Choco Delight Eclair',
-            ml: "120 g",
-            price : "₹47",
-            time:"⏱ 8 MINS",
-            src:'https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=360/da/cms-assets/cms/product/ced86243-43f2-4939-8af9-98f8dd7be6ca.png',
-            alt:'Condies'
-        },
-         {
-             name:'Pulse Kachcha Aam / Mango Candy',
-            ml: "190 g",
-            price : "₹56",
-            time:"⏱ 8 MINS",
-            src:'https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=360/da/cms-assets/cms/product/50e316ae-2ac9-46ed-8967-89ada49b06fd.png',
-            alt:'Condies'
-        },
-         {
-             name:'Parle Kismi Assorted Candy',
-            ml: "245.5 g",
-            price : "₹43",
-            time:"⏱ 8 MINS",
-            src:'https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/da/cms-assets/cms/product/3d8d0008-e9d4-45bf-958c-5719949e4c3b.jpg',
-            alt:'Condies'
-        },
-         {
-             name:'Pulse Litchi with Tangy Twist Candy',
-            ml: "190 g",
-            price : "₹53",
-            time:"⏱ 8 MINS",
-            src:'https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/da/cms-assets/cms/product/360e7721-87be-48e7-9942-15f2148ec567.jpg',
-            alt:'Condies'
-        },
-         {
-             name:'Kopiko Cappuccino Candy - Family Pack',
-            ml: "140 g",
-            price : "₹43",
-            time:"⏱ 8 MINS",
-            src:'https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/da/cms-assets/cms/product/d2f05df2-23c9-4433-9732-37c2ab4b489c.jpg',
-            alt:'Condies'
-        },
-         {
-             name:'Dobra Strawberry Blast Cotton Candy',
-            ml: "13.5 g",
-            price : "₹42",
-            time:"⏱ 8 MINS",
-            src:'https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/da/cms-assets/cms/product/2ba3e97f-2278-48fd-b920-2f2f9f5ebb83.jpg',
-            alt:'Condies'
-        },
-         {
-             name:'Chupa Chups Strawberry And Watermelon Soft Candy',
-            ml: "80 g",
-            price : "₹48",
-            time:"⏱ 8 MINS",
-            src:'https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=360/da/cms-assets/cms/product/6bd71e49-328a-4171-99fc-db3f59443d49.png',
-            alt:'Condies'
-        },
-         {
-             name:'Alpenliebe Mango with Chilli Salt Candy',
-            ml: "26 g",
-            price : "₹99",
-            time:"⏱ 8 MINS",
-            src:'https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/da/cms-assets/cms/product/9ff5a075-1452-4326-97bd-87c4649e5234.jpg',
-            alt:'Condies'
-        },
-         {
-             name:'Chandan Aam Papad',
-            ml: "200 g",
-            price : "₹162",
-            time:"⏱ 8 MINS",
-            src:'https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/da/cms-assets/cms/product/60278b46-9269-470f-bb35-a81678f707ba.jpg',
-            alt:'Condies'
-        }
-         
-        //  {
-        //      name:'',
-        //     ml: "",
-        //     price : "",
-        //     time:"⏱ 8 MINS",
-        //     src:'',
-        //     alt:'Condies'
-        // },
+    {
+        name: 'Chupa Chups Sour Bites Mixed Fruit Candy',
+        ml: "61.6 g",
+        price: "₹34",
+        time: "⏱ 8 MINS",
+        src: 'https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/da/cms-assets/cms/product/54251c20-809a-4e2f-bad0-8a53e48f3f31.jpg',
+        alt: 'Condies & gum'
+    },
+    {
+        name: 'Parle Poppins Candy',
+        ml: "200 g",
+        price: "₹24",
+        time: "⏱ 8 MINS",
+        src: 'https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=360/da/cms-assets/cms/product/7420f5a7-bd7b-4c2b-929f-d6034bb254a0.png',
+        alt: 'Condies & gum'
+    },
+    {
+        name: 'Orbit Mixed Fruit Flavour Chewing Gum (Sugar.. Free)',
+        ml: "19.8 g",
+        price: "₹45",
+        time: "⏱ 8 MINS",
+        src: 'https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=360/da/cms-assets/cms/product/06c51cd5-e8b4-43df-afa4-e5709bb5edbb.png',
+        alt: 'Condies'
+    },
+    {
+        name: 'Happydent Sugar Free Wave Fruit Flavour Chewing Gum',
+        ml: "29 mg",
+        price: "₹47",
+        time: "⏱ 8 MINS",
+        src: 'https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=360/da/cms-assets/cms/product/ae644472-f6cc-47b6-bd58-c823defcccf1.png',
+        alt: 'Condies'
+    },
+    {
+        name: 'Alpenliebe Juzt Jelly - Strawberry Flavour Jelly Candy',
+        ml: "140 g",
+        price: "₹57",
+        time: "⏱ 8 MINS",
+        src: 'https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=360/da/cms-assets/cms/product/84af17fc-39fd-44f8-ab89-69cc2bd6c2a6.png',
+        alt: 'Condies'
+    },
+    {
+        name: 'Alpenliebe Grande with Choco Delight Eclair',
+        ml: "120 g",
+        price: "₹47",
+        time: "⏱ 8 MINS",
+        src: 'https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=360/da/cms-assets/cms/product/ced86243-43f2-4939-8af9-98f8dd7be6ca.png',
+        alt: 'Condies'
+    },
+    {
+        name: 'Pulse Kachcha Aam / Mango Candy',
+        ml: "190 g",
+        price: "₹56",
+        time: "⏱ 8 MINS",
+        src: 'https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=360/da/cms-assets/cms/product/50e316ae-2ac9-46ed-8967-89ada49b06fd.png',
+        alt: 'Condies'
+    },
+    {
+        name: 'Parle Kismi Assorted Candy',
+        ml: "245.5 g",
+        price: "₹43",
+        time: "⏱ 8 MINS",
+        src: 'https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/da/cms-assets/cms/product/3d8d0008-e9d4-45bf-958c-5719949e4c3b.jpg',
+        alt: 'Condies'
+    },
+    {
+        name: 'Pulse Litchi with Tangy Twist Candy',
+        ml: "190 g",
+        price: "₹53",
+        time: "⏱ 8 MINS",
+        src: 'https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/da/cms-assets/cms/product/360e7721-87be-48e7-9942-15f2148ec567.jpg',
+        alt: 'Condies'
+    },
+    {
+        name: 'Kopiko Cappuccino Candy - Family Pack',
+        ml: "140 g",
+        price: "₹43",
+        time: "⏱ 8 MINS",
+        src: 'https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/da/cms-assets/cms/product/d2f05df2-23c9-4433-9732-37c2ab4b489c.jpg',
+        alt: 'Condies'
+    },
+    {
+        name: 'Dobra Strawberry Blast Cotton Candy',
+        ml: "13.5 g",
+        price: "₹42",
+        time: "⏱ 8 MINS",
+        src: 'https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/da/cms-assets/cms/product/2ba3e97f-2278-48fd-b920-2f2f9f5ebb83.jpg',
+        alt: 'Condies'
+    },
+    {
+        name: 'Chupa Chups Strawberry And Watermelon Soft Candy',
+        ml: "80 g",
+        price: "₹48",
+        time: "⏱ 8 MINS",
+        src: 'https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=360/da/cms-assets/cms/product/6bd71e49-328a-4171-99fc-db3f59443d49.png',
+        alt: 'Condies'
+    },
+    {
+        name: 'Alpenliebe Mango with Chilli Salt Candy',
+        ml: "26 g",
+        price: "₹99",
+        time: "⏱ 8 MINS",
+        src: 'https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/da/cms-assets/cms/product/9ff5a075-1452-4326-97bd-87c4649e5234.jpg',
+        alt: 'Condies'
+    },
+    {
+        name: 'Chandan Aam Papad',
+        ml: "200 g",
+        price: "₹162",
+        time: "⏱ 8 MINS",
+        src: 'https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/da/cms-assets/cms/product/60278b46-9269-470f-bb35-a81678f707ba.jpg',
+        alt: 'Condies'
+    }
+
+    //  {
+    //      name:'',
+    //     ml: "",
+    //     price : "",
+    //     time:"⏱ 8 MINS",
+    //     src:'',
+    //     alt:'Condies'
+    // },
 ];
 
 const pro_cont3 = document.querySelector('#product-container3');
@@ -500,7 +500,7 @@ pro_cont3.innerHTML = '';
 
 product_cont3.forEach((data) => {
     let parent = document.createElement('div');
-    parent.classList.add('product-cart');
+    parent.classList.add('product-cart-2');
     // image add
     let img = document.createElement('img');
     img.src = data.src;
@@ -548,6 +548,201 @@ product_cont3.forEach((data) => {
 
 
 });
+
+function glow() {
+    const cards = document.querySelectorAll('.product-cart');
+    cards.forEach(card => {
+
+        card.addEventListener('mouseenter', () => {
+
+            // hovered card grow
+            gsap.to(card, {
+                scale: 1.01,
+                filter: 'Blur(0px)',
+                cursor: 'pointer',
+                boxShadow: "0 8px 20px rgba(0,0,0,0.20)",
+                duration: 0.2
+            });
+
+            // other cards shrink
+            cards.forEach(other => {
+                if (other !== card) {
+                    gsap.to(other, {
+                        scale: 0.9,
+                        filter: 'Blur(1.5px)',
+                        cursor: 'none',
+                        boxShadow: "0 8px 20px rgba(0,0,0,0.05)",
+                        duration: 0.2,
+                    });
+                }
+            });
+
+        });
+
+        card.addEventListener('mouseleave', () => {
+
+            // reset all
+            gsap.to(cards, {
+                scale: 1,
+                cursor: 'none',
+                filter: 'Blur(0px)',
+                boxShadow: "0 8px 20px rgba(0,0,0,0.10)",
+                duration: 0.2
+            });
+
+        });
+
+    });
+};
+glow()
+function glow1() {
+    const cards = document.querySelectorAll('.product-cart-1');
+    cards.forEach(card => {
+
+        card.addEventListener('mouseenter', () => {
+
+            // hovered card grow
+            gsap.to(card, {
+                scale: 1.01,
+                filter: 'Blur(0px)',
+                cursor: 'pointer',
+                boxShadow: "0 8px 20px rgba(0,0,0,0.20)",
+                duration: 0.2
+            });
+
+            // other cards shrink
+            cards.forEach(other => {
+                if (other !== card) {
+                    gsap.to(other, {
+                        scale: 0.9,
+                        filter: 'Blur(1.5px)',
+                        cursor: 'none',
+                        boxShadow: "0 8px 20px rgba(0,0,0,0.05)",
+                        duration: 0.2,
+                    });
+                }
+            });
+
+        });
+
+        card.addEventListener('mouseleave', () => {
+
+            // reset all
+            gsap.to(cards, {
+                scale: 1,
+                cursor: 'none',
+                filter: 'Blur(0px)',
+                boxShadow: "0 8px 20px rgba(0,0,0,0.10)",
+                duration: 0.2
+            });
+
+        });
+
+    });
+};
+glow1();
+
+
+function glow2() {
+    const cards = document.querySelectorAll('.product-cart-2');
+    cards.forEach(card => {
+
+        card.addEventListener('mouseenter', () => {
+
+            // hovered card grow
+            gsap.to(card, {
+                scale: 1.01,
+                filter: 'Blur(0px)',
+                cursor: 'pointer',
+                boxShadow: "0 8px 20px rgba(0,0,0,0.20)",
+                duration: 0.2
+            });
+
+            // other cards shrink
+            cards.forEach(other => {
+                if (other !== card) {
+                    gsap.to(other, {
+                        scale: 0.9,
+                        filter: 'Blur(1.5px)',
+                        cursor: 'none',
+                        boxShadow: "0 8px 20px rgba(0,0,0,0.05)",
+                        duration: 0.2,
+                    });
+                }
+            });
+
+        });
+
+        card.addEventListener('mouseleave', () => {
+
+            // reset all
+            gsap.to(cards, {
+                scale: 1,
+                cursor: 'none',
+                filter: 'Blur(0px)',
+                boxShadow: "0 8px 20px rgba(0,0,0,0.10)",
+                duration: 0.2
+            });
+
+        });
+
+    });
+};
+glow2();
+
+function glow3() {
+    const cards = document.querySelectorAll('.image-grid');
+    cards.forEach(card => {
+
+        card.addEventListener('mouseenter', () => {
+
+            // hovered card grow
+            gsap.to(card, {
+                scale: 1,
+                filter: 'Blur(0px)',
+                cursor: 'pointer',
+                borderRadius:"15px",
+                boxShadow: "0 8px 20px rgba(0,0,0,0.20)",
+                duration: 0.2
+            });
+
+            // other cards shrink
+            cards.forEach(other => {
+                if (other !== card) {
+                    gsap.to(other, {
+                        scale: 0.9,
+                        filter: 'Blur(1.5px)',
+                          borderRadius:"0px",
+                        cursor: 'none',
+                        boxShadow: "0 8px 20px rgba(0,0,0,0.05)",
+                        duration: 0.2,
+                    });
+                }
+            });
+
+        });
+
+        card.addEventListener('mouseleave', () => {
+
+            // reset all
+            gsap.to(cards, {
+                scale: 1,
+                cursor: 'none',
+                borderRadius:"0px",
+                filter: 'Blur(0px)',
+                boxShadow: "0 8px 20px rgba(0,0,0,0)",
+                duration: 0.2
+            });
+
+        });
+
+    });
+};
+glow3()
+
+
+
+
 
 
 
